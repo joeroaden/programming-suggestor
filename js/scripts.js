@@ -1,6 +1,10 @@
 $(document).ready(function() {
   $("form#programming").submit(function(event) {
     const years = parseInt($("input#howLong").val());
+    const location = $("#location").val();
+    const color = $("#favColor").val();
+    const sport = $("#favSport").val();
+    const food = $("#favfood").val();
     
     if (years >=10) {
       $("#answer").show ();

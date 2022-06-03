@@ -23,7 +23,7 @@ $(document).ready(function() {
   $("form#programming").submit(function(event) {
     const gender = $("select#gender").val();
 
-    if (gender === "male" || years >10) {
+    if (gender === "male" || years >=10) {
       $("#answer4").show ();
 
     }
@@ -34,7 +34,9 @@ $(document).ready(function() {
     
         });    
 
-
+ 
+    
+         
 
 
 

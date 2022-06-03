@@ -1,8 +1,7 @@
 $(document).ready(function() {
   $("form#programming").submit(function(event) {
     const years = parseInt($("input#howLong").val());
-    //const gender = $("select#gender").val();
-
+    
     if (years >=10) {
       $("#answer").show ();
 
@@ -19,6 +18,35 @@ $(document).ready(function() {
     });
 
     });
+
+$(document).ready(function() {
+  $("form#programming").submit(function(event) {
+    const gender = $("select#gender").val();
+
+    if (gender = "male" ) {
+      $("#answer4").show ();
+
+    } else {
+      $("#answer4").show();
+      
+    }
+    
+    event.preventDefault();
+    
+    });    
+    
+        });    
+
+
+
+
+
+
+
+
+
+
+
 
 $(document).ready(function() {
   $("#answer3").click(function() {

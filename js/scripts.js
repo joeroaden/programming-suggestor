@@ -5,12 +5,13 @@ $(document).ready(function() {
 
     if (years >=10) {
       $("#answer").show ();
-
-    } else if (years <=2) {
+      
+    } else if (years <=9) {
       $("#answer3").show ();
-    
+      
     } else {
       $("#answer2").show();
+      
     }
     
     event.preventDefault();
@@ -19,7 +20,24 @@ $(document).ready(function() {
 
     });
 
+$(document).ready(function() {
+  $("#answer3").click(function() {
+    $(this).remove();
+  });
+});
 
+$(document).ready(function() {
+  $("#answer").click(function() {
+    $(this).remove();
+  });
+});
+
+
+$(document).ready(function() {
+  $("#answer2").click(function() {
+    $(this).remove();
+  });
+});
 
 
 

@@ -1,16 +1,27 @@
 .btn {
   display: block;
+  cursor: pointer;
+  
 }
 
 #answer {
   display: none;
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
 } 
 
 #answer2 {
   display: none;
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
 } 
 
 #answer3 {
   display: none;
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
 
 } 

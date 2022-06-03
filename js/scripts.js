@@ -23,14 +23,11 @@ $(document).ready(function() {
   $("form#programming").submit(function(event) {
     const gender = $("select#gender").val();
 
-    if (gender = "male" ) {
+    if (gender === "male" || years >10) {
       $("#answer4").show ();
 
-    } else {
-      $("#answer4").show();
-      
     }
-    
+
     event.preventDefault();
     
     });    
@@ -65,7 +62,12 @@ $(document).ready(function() {
   $("#answer2").click(function() {
     $(this).remove();
   });
+});
 
+$(document).ready(function() {
+  $("#answer4").click(function() {
+    $(this).remove();
+  });
   
 });
 

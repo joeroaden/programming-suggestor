@@ -10,26 +10,17 @@ $(document).ready(function() {
       $("#answer2").show();
     }
     
-    
     event.preventDefault();
-  });
+    
+    });
 
     });
-//});
 
 
 
-   //if (years) {
-    //let answer = Ruby;
-    //if (gender==="male" && years < 26) //{
-      //answer +=50;
-    //}
 
-    //$("#language").text(quote);
-    //$("#answer").show();
-  //} else {
-    //alert("Please enter your answers.");
-  //}
 
-    //event.preventDefault();
-  //});
+
+
+
+   

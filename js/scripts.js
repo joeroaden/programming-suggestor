@@ -3,10 +3,10 @@ $(document).ready(function() {
     const years = parseInt($("input#howLong").val());
     //const gender = $("select#gender").val();
 
-    if (years >=3) {
+    if (years >=10) {
       $("#answer").show ();
 
-    } else if (years <=1) {
+    } else if (years <=2) {
       $("#answer3").show ();
     
     } else {

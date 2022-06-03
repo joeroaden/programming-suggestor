@@ -6,7 +6,7 @@ $(document).ready(function() {
     if (years >=10) {
       $("#answer").show ();
       
-    } else if (years <=9) {
+    } else if (years <=1) {
       $("#answer3").show ();
       
     } else {
@@ -37,11 +37,7 @@ $(document).ready(function() {
   $("#answer2").click(function() {
     $(this).remove();
   });
+
+  
 });
 
-
-
-
-
-
-   

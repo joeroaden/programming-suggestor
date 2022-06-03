@@ -5,10 +5,10 @@ $(document).ready(function() {
 
     if (years >=10) {
       $("#answer").show ();
-      
+
     } else if (years <=1) {
-      $("#answer3").show ();
-      
+      $("#answer3").show ();  
+
     } else {
       $("#answer2").show();
       

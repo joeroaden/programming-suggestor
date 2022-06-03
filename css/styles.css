@@ -25,3 +25,12 @@
   text-decoration: underline;
 
 } 
+
+#answer4 {
+  display: none;
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+
+} 
+

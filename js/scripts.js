@@ -19,31 +19,6 @@ $(document).ready(function() {
 
     });
 
-$(document).ready(function() {
-  $("form#programming").submit(function(event) {
-    const gender = $("select#gender").val();
-
-    if (gender === "male" || years >=10) {
-      $("#answer4").show ();
-
-    }
-
-    event.preventDefault();
-    
-    });    
-    
-        });    
-
- 
-    
-         
-
-
-
-
-
-
-
 
 
 
